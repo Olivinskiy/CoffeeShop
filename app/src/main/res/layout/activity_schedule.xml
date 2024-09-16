@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Выбор дня недели -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выберите день недели"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/daySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 1 пара -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 пара: 8:00 - 9:35"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/room1Field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите аудиторию для 1 пары"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 2 пара -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 пара: 9:45 - 11:20"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/room2Field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите аудиторию для 2 пары"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 3 пара -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 пара: 11:45 - 13:20"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/room3Field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите аудиторию для 3 пары"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 4 пара -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 пара: 13:30 - 15:05"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/room4Field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите аудиторию для 4 пары"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Кнопка для сохранения расписания -->
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сохранить расписание" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

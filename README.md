@@ -5,58 +5,49 @@ DISCLAIMER:
 ⚠️ It's my first project, so, it can contains some bugs.⚠️ 
 
 
-CoffeeShop
+ScheduleKotlin
 
-CoffeeShop is a handy and stylish app for coffee lovers that helps you choose the best coffees in your city, and enjoy a personalized experience of ordering and managing your favorite drinks.
-Key features:
+A Kotlin-based weekly schedule application allows users to conveniently set and view schedules for classes or other events. Here are the key features of the application:
+Main features:
 
-    Convenient Menu: Browse menus with a variety of coffees and desserts, and get up-to-date information on pricing and drink mixes.
+    Setting a weekly schedule:
+        User can add events (lessons, meetings, tasks) for each day of the week.
+        For each event, it is possible to specify start and end time, location (e.g. classroom or location), and event name.
+        Event editing feature is implemented, allowing to modify already added timetable items.
 
-    Personalized orders: Create your own coffee recipes and save them for quick reordering.
+    Schedule Viewing:
+        The software allows the user to easily scroll through the days of the week and see the events scheduled for each day.
+        Horizontal scrolling between days of the week is implemented for easier navigation.
+        An overall weekly view is also available, where the user can see all events for the week in one window.
 
-    Special Offers: Get notifications about discounts and promotions at your favorite coffee shops.
-
-
-    Favorites: Add your favorite coffee shops and drinks to your favorites for quick access.
-
-    Interactive Map: Use the interactive map to find conveniently located coffee shops and plan routes.
-
-Technology:
-
-    Kotlin: Efficient and modern programming for Android.
-    Firebase: For database management, authentication and notifications.
-    Google Maps API: For displaying coffee shop locations and route planning.
-
-CoffeeShop is the perfect assistant for coffee lovers that makes the process of finding and ordering coffee simple and enjoyable!
-
+    Pleasant animations:
+        The programme includes smooth transitions between schedule screens. For example, when the user moves from one day of the week to another, animated data changes occur.
+        When adding or editing an event, animations are also used, such as slide effects or gradual appearance/disappearance of items.
+        When selecting a time or date, a nice animated time picker can be displayed.
+        Schedule interaction buttons (e.g. ‘Add Event’) can have a glow effect or soft vibration when pressed.
 
 RU:
-
-DISCLAIMER:
 
 ⚠️ Это мой первый проект, поэтому он может содержать некоторые ошибки.⚠️ 
 
 
-CoffeeShop
+ScheduleKotlin
 
-CoffeeShop - это удобное и стильное приложение для любителей кофе, которое поможет вам выбрать лучший кофе в вашем городе и насладиться персонализированным заказом и управлением вашими любимыми напитками.
-Ключевые особенности:
+Приложение для составления расписания на неделю на базе Kotlin позволяет пользователям удобно составлять и просматривать расписание занятий или других мероприятий. Вот ключевые особенности приложения:
+Основные возможности:
 
-    Удобное меню: Просматривайте меню с разнообразными сортами кофе и десертов, получайте актуальную информацию о ценах и составах напитков.
+    Настройка недельного расписания:
+        Пользователь может добавлять события (уроки, встречи, задания) для каждого дня недели.
+        Для каждого события можно указать время начала и окончания, местоположение (например, класс или место проведения) и название события.
+        Реализована функция редактирования событий, позволяющая изменять уже добавленные элементы расписания.
 
-    Персональные заказы: Создавайте собственные рецепты кофе и сохраняйте их для быстрого повторного заказа.
+    Просмотр расписания:
+        Программа позволяет пользователю легко прокручивать дни недели и просматривать мероприятия, запланированные на каждый день.
+        Для облегчения навигации реализована горизонтальная прокрутка между днями недели.
+        Также доступен общий просмотр расписания на неделю, где пользователь может увидеть все события на неделю в одном окне.
 
-    Специальные предложения: Получайте уведомления о скидках и акциях в ваших любимых кофейнях.
-
-
-    Избранное: Добавляйте любимые кофейни и напитки в избранное для быстрого доступа.
-
-    Интерактивная карта: Используйте интерактивную карту, чтобы находить удобно расположенные кофейни и планировать маршруты.
-
-Технологии:
-
-    Kotlin: Эффективное и современное программирование для Android.
-    Firebase: Для управления базами данных, аутентификации и уведомлений.
-    Google Maps API: Для отображения местоположения кофеен и планирования маршрутов.
-
-CoffeeShop - это идеальный помощник для любителей кофе, который сделает процесс поиска и заказа кофе простым и приятным!
+    Приятная анимация:
+        В программе предусмотрены плавные переходы между экранами расписания. Например, когда пользователь переходит от одного дня недели к другому, происходит анимированное изменение данных.
+        При добавлении или редактировании события также используется анимация, например, эффекты слайдов или постепенное появление/исчезновение элементов.
+        При выборе времени или даты может отображаться красивая анимированная панель выбора времени.
+        Кнопки взаимодействия с расписанием (например, «Добавить событие») могут иметь эффект свечения или мягкой вибрации при нажатии.
